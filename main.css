@@ -1,0 +1,236 @@
+/*luismanja modifications */
+body{
+  --lightFont : 300;
+  --normalFont : 400;
+  --shadowText : 1px 1px #424242;
+  --primaryColor: #113951;
+  --secondaryColor : #477187;/*active items mainly */
+  --contrastColor : #0881C8;
+  --linkColor : rgb(6, 90, 167);
+  --textColor : black;
+  --headingColor: black;
+  --underlineHeading : solid 3px var(--headingColor);
+  --underlineHeadingMinor : solid 1px var(--headingColor);
+  --underlineText : solid 1px var(--headingColor);
+  --underlineOff : solid 0px var(--headingColor);
+}
+
+.google-maps {
+  position: relative;
+  padding-bottom: 75%; // This is the aspect ratio
+  height: 0;
+  overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
+}
+
+.slider .slides {
+    cursor: pointer;
+}
+
+/*put template*/
+body{
+  color: var(--textColor);
+}
+h1, h2, h3, h4, h5, h6 {
+  color: var(--headingColor);
+  font-weight: var(--lightFont);
+}
+h1{
+  border-bottom: var(--underlineOff);
+}
+nav{
+  background-color: var(--primaryColor);
+}
+
+/*Reeplace teal color 4 primary color*/
+.collection .collection-item.active {
+  background-color: var(--primaryColor);
+}
+.collection a.collection-item {
+  color: var(--primaryColor);
+}
+.secondary-content {
+  color: var(--primaryColor);
+}
+.progress .determinate {
+  background-color: var(--primaryColor);
+}
+.progress .indeterminate {
+  background-color: var(--primaryColor);
+}
+span.badge.new {
+  background-color: var(--primaryColor);
+}
+.btn, .btn-large {
+  background-color: var(--primaryColor);
+}
+.btn-floating:hover {
+  background-color: var(--primaryColor);
+}
+.fixed-action-btn .fab-backdrop {
+  background-color: var(--primaryColor);
+}
+.dropdown-content li > a, .dropdown-content li > span {
+  color: var(--primaryColor);
+}
+.chips.focus {
+  border-bottom: 1px solid var(--primaryColor);
+  -webkit-box-shadow: 0 1px 0 0 var(--primaryColor);
+          box-shadow: 0 1px 0 0 var(--primaryColor);
+}
+.chips .chip.selected {
+  background-color: var(--primaryColor);
+}
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+  border-bottom: 1px solid var(--primaryColor);
+  -webkit-box-shadow: 0 1px 0 0 var(--primaryColor);
+          box-shadow: 0 1px 0 0 var(--primaryColor);
+}
+input:not([type]):focus:not([readonly]) + label,
+input[type=text]:not(.browser-default):focus:not([readonly]) + label,
+input[type=password]:not(.browser-default):focus:not([readonly]) + label,
+input[type=email]:not(.browser-default):focus:not([readonly]) + label,
+input[type=url]:not(.browser-default):focus:not([readonly]) + label,
+input[type=time]:not(.browser-default):focus:not([readonly]) + label,
+input[type=date]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime]:not(.browser-default):focus:not([readonly]) + label,
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]) + label,
+input[type=tel]:not(.browser-default):focus:not([readonly]) + label,
+input[type=number]:not(.browser-default):focus:not([readonly]) + label,
+input[type=search]:not(.browser-default):focus:not([readonly]) + label,
+textarea.materialize-textarea:focus:not([readonly]) + label {
+  color: var(--primaryColor);
+}
+.input-field .prefix.active {
+  color: var(--primaryColor);
+}
+[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:before,
+[type="radio"].with-gap:checked + label:after {
+  border: 2px solid var(--primaryColor);
+}
+
+[type="radio"]:checked + label:after,
+[type="radio"].with-gap:checked + label:after {
+  background-color: var(--primaryColor);
+}
+[type="checkbox"]:checked + label:before {
+  border-right: 2px solid var(--primaryColor);
+  border-bottom: 2px solid var(--primaryColor);
+}
+[type="checkbox"]:indeterminate + label:before {
+  border-right: 2px solid var(--primaryColor);
+}
+[type="checkbox"].filled-in:checked + label:after {
+  border: 2px solid var(--primaryColor);
+  background-color: var(--primaryColor);
+}
+[type="checkbox"].filled-in.tabbed:checked:focus + label:after {
+  background-color: var(--primaryColor);
+  border-color: var(--primaryColor);
+}
+.switch label input[type=checkbox]:checked + .lever:after {
+  background-color: var(--primaryColor);
+}
+input[type=range] + .thumb {
+  background-color: var(--primaryColor);
+}
+input[type=range] + .thumb .value {
+  color: var(--primaryColor);
+}
+input[type=range]::-webkit-slider-thumb {
+  background-color: var(--primaryColor);
+}
+input[type=range]::-moz-range-thumb {
+  background: var(--primaryColor);
+}
+input[type=range]::-ms-thumb {
+  background: var(--primaryColor);
+}
+.side-nav li > a.btn-floating:hover {
+  background-color: var(--primaryColor);
+}
+.spinner-layer {
+  border-color: var(--primaryColor);
+}
+.picker__date-display {
+  background-color: var(--primaryColor);
+}
+.picker__day.picker__day--today {
+  color: var(--primaryColor);
+}
+.picker__day--selected,
+.picker__day--selected:hover,
+.picker--focused .picker__day--selected {
+  background-color: var(--primaryColor);
+}
+.picker__close, .picker__today, .picker__clear {
+  color: var(--primaryColor);
+}
+.clockpicker-canvas-bearing {
+  fill: var(--primaryColor);
+}
+.clockpicker-canvas-bg {
+  fill: var(--primaryColor);
+}
+.clockpicker-canvas-bg-trans {
+  fill: var(--primaryColor);
+}
+.clockpicker-canvas line {
+  stroke: var(--primaryColor);
+}
+.btn:hover, .btn-large:hover {
+  background-color: var(--contrastColor);
+}
+.side-nav li > a.btn:hover, .side-nav li > a.btn-large:hover, .side-nav li > a.btn-large:hover {
+  background-color: var(--contrastColor);
+}
+.btn:focus, .btn-large:focus,
+.btn-floating:focus {
+  background-color: var(--secondaryColor);
+}
+.switch label input[type=checkbox]:checked + .lever {
+  background-color: var(--secondaryColor);
+}
+
+
+.tabs .tab a {
+  color: var(--secondaryColor);
+}
+
+.tabs .tab a:hover, .tabs .tab a.active {
+  color: var(--contrastColor);
+}
+
+.tabs .tab.disabled a,
+.tabs .tab.disabled a:hover {
+  color: var(--contrastColor);
+}
+
+.tabs .indicator {
+  background-color: var(--contrastColor);
+}
+a{
+  color: --var(--linkColor);
+}
+a:hover{
+  color: var(--contrastColor);
+}
