@@ -8,7 +8,7 @@
     <meta name="robots" content="index,follow">
     <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" name="viewport">
     <!--js-->
-    <script src="js/jquery-3.2.1.min.js" charset="utf-8"></script>
+    <script src="js/jquery.js" charset="utf-8"></script>
     <script src="js/materialize.min.js" charset="utf-8"></script>
 
     <title></title>
